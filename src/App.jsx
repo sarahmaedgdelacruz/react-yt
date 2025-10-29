@@ -1,15 +1,20 @@
 import './App.css'
+import Navbar from './components/Navbar'
+import Video from './components/Video'
 
 function App() {
-  const darkMode = true;
   return (
-    <>
-    <div className="bg-stone-700 p-2 flex h-lvh" id="main-container">
-      <div className="w-[50%] h-20 bg-pink-500"></div>
-      <div className="w-[50%] h-20 bg-purple-500"></div>
+    <div className='h-lvh'>
+      <Navbar />
+      <div className='flex'>
+        <div className='w-[70%] h-lvh bg-pink-300'>
+          <Video />
+        </div>
+        <div className='w-[30%] h-lvh bg-purple-300'>Side</div>
+      </div>
     </div>
-    </>
   )
 }
 
 export default App
+
