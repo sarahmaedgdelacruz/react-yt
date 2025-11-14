@@ -2,6 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Video from './components/Video'
 import Side from './components/Side'
+import Shorts from './components/Shorts'
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
         </div>
         <div className='w-[30%] h-lvh bg-white'>
           <Side />
+          <Shorts />
         </div>
       </div>
     </div>

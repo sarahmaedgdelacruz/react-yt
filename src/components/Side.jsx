@@ -29,6 +29,8 @@ function SideVideo() {
         <img className="mb-2" src="src/assets/side/side3.jpg" alt="" />
         <img className="mb-2" src="src/assets/side/side4.jpg" alt="" />
         </div>
+
+        <hr />
       
     </div>
 
